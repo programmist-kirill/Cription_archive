@@ -1,5 +1,5 @@
-# Cription_archive
-Cription_archive program - should pack secret files into one archive using a hashed key, as well as a key from a flash drive or other portable device
+# GhostVault 
+GhostVault  program - should pack secret files into one archive using a hashed key, as well as a key from a flash drive or other portable device
 
 1.Installation instructions
 <p>    For windows - you need to place the Cription_archive folder in the root of the C:/ drive and if you want you can delete the For_linux folder</p>
