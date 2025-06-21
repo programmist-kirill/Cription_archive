@@ -16,6 +16,10 @@ Cription_archive program - should pack secret files into one archive using a has
 <p></p>
 <p></p>
 
+Программа Cription_archive - должна упаковывать секретные файлы в один архив, используя хешированный ключ, а также ключ с флешки или другого портативного устройства
+
+<P></P>
+
 1.Инструкция по установке
 <p>    Для windows - нужно поместить папку Cription_archive в корень диска C:/ и если хотите можете удалить папку For_linux</p>
 <p>    Для linux - нужно поместить папку в home , и если хотите можете удалить папку For_windows</p>
