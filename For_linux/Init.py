@@ -23,6 +23,12 @@ def what_user_name():
     user_name = getpass.getuser()
 
     #если нет count_start.log , тобишь при первом запуске , и запись имя пользователя в файл
+
+    directory_C_script = "/home/" + user_name + "/Cription_archive/For_linux/file_writer.c"
+    directory_to_compilations = "/home/" + user_name + "/Cription_archive/For_linux/file_writer"
+    #компиляция file_writer.c , который создает файл скрипта для архивации и разархивации
+    os.system("gcc " + directory_C_script + "-o " + directory_to_compilations)
+    
     if not os.path.exists("/home/" + user_name + "/Cription_archive/For_linux/count_start.log"):
         with open("/home/" + user_name + "/Cription_archive/For_linux/user_name","w") as fp:
             fp.write(user_name)
